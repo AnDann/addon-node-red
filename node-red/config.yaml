@@ -19,8 +19,12 @@ arch:
   - i386
 ports:
   80/tcp: 1880
+  2052/tcp: 2052
+  2053/tcp: 2053
 ports_description:
   80/tcp: Web interface
+  2052/tcp: BINRPC interface
+  2053/tcp: XMLRPC interface
 hassio_api: true
 hassio_role: manager
 homeassistant_api: true
